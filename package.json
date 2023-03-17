@@ -1,0 +1,27 @@
+{
+  "name": "tech-notes",
+  "version": "1.0.0",
+  "description": "tech-notes MERN project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahsan-Zaidi/tech-notes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahsan-Zaidi/tech-notes/issues"
+  },
+  "homepage": "https://github.com/Ahsan-Zaidi/tech-notes#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
