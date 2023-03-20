@@ -32,7 +32,10 @@ app.use(cookieParser())
 //use path to listen for the root route telling express where to find static files for this app
 app.use('/', express.static(path.join(__dirname, 'public')))
 
+//route for the techNotes homepage rendering initial html template
 app.use('/', require('./routes/root'))
+//rendering routes for the User data model
+app.use('/users', require('./routes/userRoutes'))
 
 //catch all at the end redirecting user to the 404 page if route is not found
 app.all('*', (req, res) => {
